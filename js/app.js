@@ -4,37 +4,67 @@ console.log('insanity check')
 
 
 /*------------ Variables ------------*/
-
+let currentState = {
+  currentRoom: startScreen,
+  health: 10,
+  attack: 1,
+  defence: 2,
+  gold: 100,
+  inventory: [
+    {item: 'L.1 Sword', possessing: false, value: 90, attackBonus: 5, 
+      description: ' '},
+    {item: 'L.2 Sword', possessing: false, value: 400, attackBonus: 6, 
+      description: ' '},
+    {item: 'L.3 Sword', possessing: false, value: 900, attackBonue: 7, 
+      description: ' '},
+    {item: 'L.4 Sword', possessing: false, value: 1600, attackBonue: 10, 
+      description: ' '},
+    {item: 'L.1 Sheild', possessing: false, value: 70, defenceBonus: 2, 
+      description: ' '},
+    {item: 'L.2 Sheild', possessing: false, value: 200, defenceBonus: 3, 
+      description: ' '},
+    {item: 'L.3 Sheild', possessing: false, value: 500, defenceBonus: 4, 
+      description: ' '},
+    {item: 'L.4 Sheild', possessing: false, value: 1200, defenceBonus: 6, 
+      description: ' '},
+    {item: 'Small Peanutbutter Jar', possessing: false, value: 10, scoops: 1, 
+      description: ' '},
+    {item: 'Medium Peanutbutter Jar', possessing: false, value: 40, scoops: 5, 
+      description: ' '},
+    {item: 'large Peanutbutter Jar', possessing: false, value: 70, scoops: 10, 
+      description: ' '},
+    {item: 'Sword Ring', possessing: false, value: 100, attackBonus: 3, 
+      description: ' '},
+    {item: 'Sheild Ring', possessing: false, value: 100, defenceBonus: 3, 
+      description: ' '},
+    {item: 'Health Ring', possessing: false, value: 100, healthBonus: 3, 
+      description: ' '},
+    {item: 'THE GREAT AND POWERFUL WAND OF PRESENTATION ASSISTANCE', 
+    possessing: false, attackBonue: 9999, defenceBonus: 9999, 
+      description: ' '}
+  ],
+  enemies: [
+    {id: 'skeleton 1', defeated: false},
+    {id: 'skeleton 2', defeated: false},
+    {id: 'skeleton 3', defeated: false},
+    {id: 'skeleton 4', defeated: false},
+    {id: 'skeleton 5', defeated: false},
+    {id: 'skeleton 6', defeated: false},
+    {id: 'skeleton 7', defeated: false},
+    {id: 'skeleton 8', defeated: false},
+  ],
+}
 
 /*---- Cached Element References ----*/
-const changeBackdrop = document.querySelector('#changeBackdrop')
-console.log(changeBackdrop)
-const backdrop = document.querySelector('#backdrop')
-console.log(backdrop)
+
 
 /*--------- Event Listeners ---------*/
-changeBackdrop.addEventListener('click', backdropChanger)
 
 
 /*------------ Functions ------------*/
-function backdropChanger() {
-  console.log('click')
-  backdrop.style.backgroundImage = 'url(assets/dwarfy-fav-.png)'
-}
+
 
 /*-------------Imports---------------*/
-import { roomsConnected } from "./rooms.js"
-roomsConnected()
-
-
-import { playerConnected } from "./player.js"
-playerConnected()
-
-import { enemiesConnected } from "./enemies.js"
-enemiesConnected()
-
-import { itemsConnected } from "./items.js"
-itemsConnected()
 
 
 /*------------Psudocode--------------
@@ -82,3 +112,29 @@ Pseudocode for the overall gameplay
 */
 
 
+/*---------------------------Code Grave Yard-------------------------
+const changeBackdrop = document.querySelector('#changeBackdrop')
+console.log(changeBackdrop)
+const backdrop = document.querySelector('#start-screen')
+console.log(backdrop)
+
+changeBackdrop.addEventListener('click', backdropChanger)
+
+function backdropChanger() {
+  console.log('click')
+  backdrop.style.backgroundImage = 'url(assets/dwarfy-fav-.png)'
+}
+
+import { roomsConnected } from "./rooms.js"
+roomsConnected()
+
+
+import { playerConnected } from "./player.js"
+playerConnected()
+
+import { enemiesConnected } from "./enemies.js"
+enemiesConnected()
+
+import { itemsConnected } from "./items.js"
+itemsConnected()
+*/

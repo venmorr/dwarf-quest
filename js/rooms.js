@@ -1,4 +1,4 @@
-let room1, room2, enemy1, enemy2, rLoot1, rLoot2, dungeonEntrance, firstDunRoom, merchantBooth, dunRoom2a, dunRoom2b, dunRoom3a, dunRoom3b, dunRoom3c, dunRoom4a, dunRoom4b, dunRoom5, secretRoom1, secretRoom2, bossRoom, goldRoom //rooms/screens
+let startScreen, room1, room2, enemy1, enemy2, rLoot1, rLoot2, dungeonEntrance, firstDunRoom, merchantBooth, dunRoom2a, dunRoom2b, dunRoom3a, dunRoom3b, dunRoom3c, dunRoom4a, dunRoom4b, dunRoom5, secretRoom1, secretRoom2, bossRoom, goldRoom //rooms/screens
 
 let sword, sheild, peanutButterJars, gold, swordRing, sheildRing, lichBlade //items
 
@@ -8,7 +8,7 @@ let skeleton, bigSkeleton // enemies
 const rooms = [
   
 /*------------------------------Outside Dungeon---------------------------*/
-  {roomName: 'Title Screen', //
+  {roomName: startScreen, //
   doors: [dungeonEntrance], 
   enemies: [], 
   roomLoot: [],
