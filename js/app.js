@@ -7,17 +7,25 @@ console.log('insanity check')
 
 
 /*---- Cached Element References ----*/
-
+const changeBackdrop = document.querySelector('#changeBackdrop')
+console.log(changeBackdrop)
+const backdrop = document.querySelector('#backdrop')
+console.log(backdrop)
 
 /*--------- Event Listeners ---------*/
+changeBackdrop.addEventListener('click', backdropChanger)
 
 
 /*------------ Functions ------------*/
-
+function backdropChanger() {
+  console.log('click')
+  backdrop.style.backgroundImage = 'url(assets/dwarfy-fav-.png)'
+}
 
 /*-------------Imports---------------*/
 import { roomsConnected } from "./rooms.js"
 roomsConnected()
+
 
 import { playerConnected } from "./player.js"
 playerConnected()
@@ -47,7 +55,7 @@ Pseudocode for the overall gameplay
     -Enemies to aim attacks at
        Light and heavy attacks [feature]
     -Items to pick up
-    
+
 3. Keep track of information in various linked arrays/objects/arrays of objects including but not limited to:
     -Player: 
        Stats

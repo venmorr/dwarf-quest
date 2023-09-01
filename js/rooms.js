@@ -1,8 +1,8 @@
-let room1, room2, enemy1, enemy2, rLoot1, rLoot2, dungeonEntrance, firstDunRoom, merchantBooth, dunRoom2a, dunRoom2b, dunRoom3a, dunRoom3b, dunRoom3c, dunRoom4a, dunRoom4b, dunRoom5, secretRoom1, secretRoom2, bossRoom //rooms/screens
+let room1, room2, enemy1, enemy2, rLoot1, rLoot2, dungeonEntrance, firstDunRoom, merchantBooth, dunRoom2a, dunRoom2b, dunRoom3a, dunRoom3b, dunRoom3c, dunRoom4a, dunRoom4b, dunRoom5, secretRoom1, secretRoom2, bossRoom, goldRoom //rooms/screens
 
-let sword, sheild, peanutButterJars //items
+let sword, sheild, peanutButterJars, gold, swordRing, sheildRing, lichBlade //items
 
-let skeleton // enemies
+let skeleton, bigSkeleton // enemies
 
 // These are all the rooms (or screens) that can be viewed throughout the game
 const rooms = [
@@ -12,19 +12,19 @@ const rooms = [
   doors: [dungeonEntrance], 
   enemies: [], 
   roomLoot: [],
-  }, // to Dungeon Entrance
+  }, 
   
   {roomName: 'Dungeon Entrance', //
   doors: [firstDunRoom, merchantBooth], 
   enemies: [], 
   roomLoot: [],
-  }, // to First Dungeon Room & Merchants Booth
+  }, 
   
   {roomName: 'Merchant Booth', //
   doors: [dungeonEntrance], 
   enemies: [], 
   roomLoot: [sword, sheild, peanutButterJars],
-  }, // back to Dungeon Entrance
+  }, 
   
 /*-------------------------------Inside Dungeon---------------------------*/
   {roomName: 'First Dungeon Room', //
@@ -75,27 +75,27 @@ const rooms = [
   roomLoot: [rLoot1, rLoot2],
   }, 
   
-  {roomName: 'Dungeon Room 5', 
+  {roomName: 'Dungeon Room 5', // 
   doors: [dunRoom4a, secretRoom2, bossRoom], 
   enemies: [bigSkeleton], 
   roomLoot: [rLoot1, rLoot2],
   }, 
 
   /*----------------------------Secret Rooms-----------------------------*/
-  {roomName: 'sectretRoom1', 
+  {roomName: 'sectretRoom1', //
   doors: [dunRoom2a], 
   enemies: [], 
   roomLoot: [gold, swordRing],
   },
   
-  {roomName: 'sectretRoom2', 
+  {roomName: 'sectretRoom2', //
   doors: [dunRoom3c, dunRoom5], 
   enemies: [], 
   roomLoot: [gold, sheildRing],
   },
 
   /*----------------------------Boss Room--------------------------------*/
-  {roomName: 'Boss Room', 
+  {roomName: 'Boss Room', //
   doors: [goldRoom], 
   enemies: [`Trec'nux the Lich King`, `Cradle of Undeath`], 
   roomLoot: [gold, lichBlade],

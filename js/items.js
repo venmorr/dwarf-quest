@@ -9,7 +9,7 @@ let sword, sheild, peanutButterJars
 
 /*-------Export-------------*/
 function itemsConnected() {
-  console.log('items connected')
+  console.log('Items connected')
 }
 export {
   itemsConnected,
