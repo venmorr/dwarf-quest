@@ -5,12 +5,12 @@ console.log('insanity check')
 
 /*------------ Variables ------------*/
 let currentState = {
-  currentRoom: startScreen,
-  health: 10,
-  attack: 1,
-  defence: 2,
-  gold: 100,
-  inventory: [
+  a_CurrentRoom: 'startScreen',
+  b_Health: 10,
+  c_Attack: 1,
+  d_Defence: 2,
+  e_Gold: 100,
+  f_Inventory: [
     {item: 'L.1 Sword', possessing: false, value: 90, attackBonus: 5, 
       description: ' '},
     {item: 'L.2 Sword', possessing: false, value: 400, attackBonus: 6, 
@@ -43,7 +43,7 @@ let currentState = {
     possessing: false, attackBonue: 9999, defenceBonus: 9999, 
       description: ' '}
   ],
-  enemies: [
+  g_Enemies: [
     {id: 'skeleton 1', defeated: false},
     {id: 'skeleton 2', defeated: false},
     {id: 'skeleton 3', defeated: false},
@@ -53,7 +53,8 @@ let currentState = {
     {id: 'skeleton 7', defeated: false},
     {id: 'skeleton 8', defeated: false},
   ],
-}
+} 
+console.log('Current state: ', currentState)
 
 /*---- Cached Element References ----*/
 
@@ -62,6 +63,39 @@ let currentState = {
 
 
 /*------------ Functions ------------*/
+function openDoor() {
+  if (door === dungeonEntrance){
+    let a_CurrentRoom = dungeonEntrance
+      } else if (door = merchantBooth) {
+    let a_CurrentRoom = merchantBooth
+      } else if (door = dunRoom1) {
+    let a_CurrentRoom = dunRoom1
+      } else if (door = dunRoom2a) {
+    let a_CurrentRoom = dunRoom2a
+      } else if (door = dunRoom2b) {
+    let a_CurrentRoom = dunRoom2b
+      } else if (door = dunRoom3a) {
+    let a_CurrentRoom = dunRoom3a
+      } else if (door = dunRoom3b) {
+    let a_CurrentRoom = dunRoom3b
+      } else if (door = dunRoom3c) {
+    let a_CurrentRoom = dunRoom3c
+      } else if (door = dunRoom4a) {
+    let a_CurrentRoom = dunRoom4a
+      } else if (door = dunRoom4b) {
+    let a_CurrentRoom = dunRoom4b
+      } else if (door = dunRoom5) {
+    let a_CurrentRoom = dunRoom5
+      } else if (door = secretRoom1) {
+    let a_CurrentRoom = secretRoom1
+      } else if (door = secretRoom2) {
+    let a_CurrentRoom = secretRoom2
+      } else if (door = bossRoom) {
+    let a_CurrentRoom = bossRoom
+      } else if (door = goldRoom) {
+    let a_CurrentRoom = goldRoom
+}} // I know the indentation on this is probably not standard but the = not being in line was very noisy and bothersom. 
+
 
 
 /*-------------Imports---------------*/

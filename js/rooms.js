@@ -1,4 +1,4 @@
-let startScreen, room1, room2, enemy1, enemy2, rLoot1, rLoot2, dungeonEntrance, firstDunRoom, merchantBooth, dunRoom2a, dunRoom2b, dunRoom3a, dunRoom3b, dunRoom3c, dunRoom4a, dunRoom4b, dunRoom5, secretRoom1, secretRoom2, bossRoom, goldRoom //rooms/screens
+let startScreen, room1, room2, enemy1, enemy2, rLoot1, rLoot2, dungeonEntrance, dunRoom1, merchantBooth, dunRoom2a, dunRoom2b, dunRoom3a, dunRoom3b, dunRoom3c, dunRoom4a, dunRoom4b, dunRoom5, secretRoom1, secretRoom2, bossRoom, goldRoom //rooms/screens
 
 let sword, sheild, peanutButterJars, gold, swordRing, sheildRing, lichBlade //items
 
@@ -15,7 +15,7 @@ const rooms = [
   }, 
   
   {roomName: 'Dungeon Entrance', //
-  doors: [firstDunRoom, merchantBooth], 
+  doors: [dunRoom1, merchantBooth], 
   enemies: [], 
   roomLoot: [],
   }, 
@@ -34,13 +34,13 @@ const rooms = [
   }, 
 
   {roomName: 'Dungeon Room 2a', //
-  doors: [dunRoom3a, dunRoom3b, secretRoom1, firstDunRoom], 
+  doors: [dunRoom3a, dunRoom3b, secretRoom1, dunRoom1], 
   enemies: [skeleton], 
   roomLoot: [rLoot1, rLoot2],
   }, 
   
   {roomName: 'Dungeon Room 2b', //
-  doors: [dunRoom3b, dunRoom3c, firstDunRoom], 
+  doors: [dunRoom3b, dunRoom3c, dunRoom1], 
   enemies: [skeleton], 
   roomLoot: [rLoot1, rLoot2],
   }, 
