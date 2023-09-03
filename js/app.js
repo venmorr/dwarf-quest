@@ -1,6 +1,6 @@
 console.log('insanity check')
 /*-------------Imports---------------*/
-import rooms from './rooms.js'
+import rooms from '../data/rooms.js'
 
 /*------------ Constants ------------*/ 
 
