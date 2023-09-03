@@ -1,16 +1,22 @@
 console.log('insanity check')
 /*-------------Imports---------------*/
-import rooms from '../data/rooms.js'
+import beats from '../data/beats.js'
 
 /*------------ Constants ------------*/ 
 
 
 /*------------ Variables ------------*/
-
+let currentState = 0
 
 /*---- Cached Element References ----*/
+const scene = document.querySelector('.scene')
+const text = document.querySelector('.text')
+const choice1 = document.getElementById('b1')
+const choice2 = document.getElementById('b2')
+const choice3 = document.getElementById('b3')
+const choice4 = document.getElementById('b4')
 
-
+console.log(scene, text, choice1, choice2, choice3, choice4)
 /*--------- Event Listeners ---------*/
 
 
@@ -18,7 +24,12 @@ import rooms from '../data/rooms.js'
 init()
 
 function init() {
-  console.log('Initialize')
+   render()
+   console.log('Initialize')
+}
+
+function render() {
+
 }
 
 
