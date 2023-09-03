@@ -1,7 +1,7 @@
 console.log('insanity check')
 /*-------------Imports---------------*/
 import states from '../data/state.js'
-import * as audio from './audio.js'
+// import * as audio from './audio.js'
 
 
 /*------------ Constants ------------*/ 
@@ -64,7 +64,7 @@ function changeState(event) {
 }
 
 function render() {
-   setImage()
+   // setImage()
    setText()
    buttonMaker()
    playSound()
@@ -72,9 +72,9 @@ function render() {
 
 
 
-function setImage() {
-   scene.setAttribute('src', currentState.image)
-}
+// function setImage() {
+//    scene.setAttribute('src', currentState.image)
+// }
 
 
 function setText() {
