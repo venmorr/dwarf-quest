@@ -62,6 +62,10 @@ body {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
 }
 
+.hidden {
+  display: none;
+}
+
 button:hover{
   cursor: pointer;
   background-color: #880808;

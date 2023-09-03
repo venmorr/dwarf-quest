@@ -10,9 +10,12 @@
 - ************************Attributions************************: 
 Include links to any external resources (such as libraries or assets) you used to develop your application.
 Sounds:
-  Mystery Dark Ambiance Theme 
-    credit: Robbnix
-    link: https://freesound.org/people/Robbnix/sounds/685323/
+  Sword Clash 01,02,03, & 04
+    credit: 32Cheeseman32
+    https://freesound.org/people/32cheeseman32/sounds/180820/   (01)
+    https://freesound.org/people/32cheeseman32/sounds/180819/   (02)
+    https://freesound.org/people/32cheeseman32/sounds/180818/   (03)
+    https://freesound.org/people/32cheeseman32/sounds/180817/   (04)
 
 - **Technologies Used**: List of the technologies used, for example: JavaScript, HTML, CSS, etc.
   -JavaScript
