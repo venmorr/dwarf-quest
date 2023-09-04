@@ -1,7 +1,7 @@
 console.log('insanity check')
 /*-------------Imports---------------*/
 import states from '../data/state.js'
-// import * as audio from './audio.js'
+import {playSwordAudio} from './audio.js'
 
 
 /*------------ Constants ------------*/ 
@@ -37,6 +37,7 @@ function init() {
 
 function clickHandler(event) {
    changeState(event)
+   playSound()
    render()
 }
 
@@ -67,7 +68,6 @@ function render() {
    setImage()
    setText()
    buttonMaker()
-   playSound()
 }
 
 
@@ -94,6 +94,7 @@ function buttonMaker(){
 
 
 function playSound() {
+   playSwordAudio()
 }
 
 /*------------Psudocode--------------
