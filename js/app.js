@@ -21,8 +21,6 @@ const choice2 = document.getElementById('b2')
 const choice3 = document.getElementById('b3')
 const choice4 = document.getElementById('b4')
 
-console.log(buttons)
-console.log(scene, text, choice1, choice2, choice3, choice4)
 /*--------- Event Listeners ---------*/
 choice1.addEventListener('click', clickHandler)
 choice2.addEventListener('click', clickHandler)
@@ -38,42 +36,39 @@ function init() {
 }
 
 function clickHandler(event) {
-   changeState(event)
+   console.log(currentState.nextState)
+   changeState(event) //here
    playSound()
-   render()
+   render() // here
 }
 
 function changeState(event) {
    let id = event.target.id
    if (id === 'b1') {
-      let nextState = currentState.nextState[0]
+      let nextState = currentState.nextState[0]  // here 
       currentState = states[nextState]
-      console.log(currentState)
    } else if (id === 'b2') {
       let nextState = currentState.nextState[1]
       currentState = states[nextState]
-      console.log(currentState)
    } else if (id === 'b3') {
       let nextState = currentState.nextState[2]
       currentState = states[nextState]
-      console.log(currentState)
    } else if (id === 'b4') {
       let nextState = currentState.nextState[3]
       currentState = states[nextState]
-      console.log(currentState)
    } else {
       console.log('oopsies')
    }
 }
 
 function render() {
-   setImage()
+   setImage() // here
    setText()
    buttonMaker()
 }
 
 function setImage() {
-   scene.setAttribute('src', currentState.image)
+   scene.setAttribute('src', currentState.image)  // here
 }
 
 function setText() {
