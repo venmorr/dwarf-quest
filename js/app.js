@@ -70,12 +70,9 @@ function render() {
    buttonMaker()
 }
 
-
-
 function setImage() {
    scene.setAttribute('src', currentState.image)
 }
-
 
 function setText() {
    text.innerHTML = currentState.text 
