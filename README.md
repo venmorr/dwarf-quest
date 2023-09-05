@@ -1,8 +1,10 @@
 # dwarf-quest
+by: Steven Morrison
 
-- **Screenshot:** A screenshot of your game.
+![Alt text](assets/images/DQScreenshot.png)
 
-- **Your game’s title**: A description of your game. Background info about why you chose the game is a nice touch.
+
+Take on the roll of a weary old dwarf who wants nothing more then to come home, kick off his boots, put on some tea, and pet his beloved cat Méowyn. 
 
 - **Getting Started**: Include a link to your deployed game and any instructions you deem important.
   *use surge in git when you get to this step*

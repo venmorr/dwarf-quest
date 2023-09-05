@@ -1,7 +1,9 @@
 console.log('insanity check')
 /*-------------Imports---------------*/
 import states from '../data/state.js'
-import {playSwordAudio} from './audio.js'
+// import {playSwordAudioII} from './audio.js'
+// import {playSwordAudioIII} from './audio.js'
+import {playSwordAudioIV} from './audio.js'
 
 
 /*------------ Constants ------------*/ 
@@ -89,9 +91,11 @@ function buttonMaker(){
    })
 }
 
-
 function playSound() {
-   playSwordAudio()
+   // playSwordAudioII() 
+   // playSwordAudioIII() 
+   playSwordAudioIV()
+
 }
 
 
