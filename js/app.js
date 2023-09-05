@@ -94,6 +94,7 @@ function playSound() {
    playSwordAudio()
 }
 
+
 /*------------Psudocode--------------
 Pseudocode for the overall gameplay
   

@@ -46,7 +46,7 @@ const states = [
 },
 { state: 5, //put on some tea 1
   name: 'put on some tea 1',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/374931183_10231492423152868_1463909025714309972_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=2lJDT0KiergAX83RldL&_nc_ht=scontent-lga3-1.xx&oh=00_AfDqtNq_NJnVrS45gC5-C4AB9k3zzQzkaGg5AF7seZQ1kw&oe=64FBDD3B',
   soundFx: '', 
   otherFx: null,
   text: 'The sound of the kettle boiling, the smell of a struck match, the satisfaction of tea leaves unfurling as they steep. Few things in life are better then a good cup of tea. Now then, what next?',
@@ -64,7 +64,7 @@ const states = [
 },
 { state: 7, //put on some tea 2
   name: 'put on some tea 2',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/374931183_10231492423152868_1463909025714309972_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=2lJDT0KiergAX83RldL&_nc_ht=scontent-lga3-1.xx&oh=00_AfDqtNq_NJnVrS45gC5-C4AB9k3zzQzkaGg5AF7seZQ1kw&oe=64FBDD3B',
   soundFx: '', 
   otherFx: null,
   text: 'The sound of the kettle boiling, the smell of a struck match, the satisfaction of tea leaves unfurling as they steep. Few things in life are better then a good cup of tea. Now then, what next?',
