@@ -36,9 +36,9 @@ function init() {
 }
 
 function clickHandler(event) {
-   console.log(currentState.nextState)
-   changeState(event) //here
    playSound()
+   changeState(event) //here
+   checkConfetti()
    render() // here
 }
 
@@ -91,6 +91,13 @@ function playSound() {
    // playSwordAudioIII() 
    playSwordAudioIV()
 
+}
+
+function checkConfetti() {
+   if (currentState === 38) {
+      console.log('FIRING THE CONFETTI CANNON')
+      return confetti.start(700)
+   }
 }
 
 
