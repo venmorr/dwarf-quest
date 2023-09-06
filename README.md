@@ -6,7 +6,8 @@ by: Steven Morrison
 
 Take on the role of a weary old dwarf who wants nothing more than to come home, kick off his boots, put on some tea, and pet his beloved cat Méowyn. I made this game because I love storytelling and world-building. I also love puzzles, so this game was a really fun project to work on.
 
-**[GameLINK]**
+Try it yourself here:  
+**https://dwarf-quest.surge.sh/**
 
 **Attributions**: 
   Sword Clash 04 

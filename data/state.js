@@ -101,7 +101,7 @@ const states = [
 },
 { state: 10, //Leaving to find Méowyn
   name: 'Leaving to find Méowyn',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375044607_10231504487334465_8797760578869012299_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=813123&_nc_ohc=tiUb8LlyA9sAX-kySVl&_nc_ht=scontent-lga3-2.xx&oh=00_AfDhzU30PM1AYQbqVQFns_YzQzgPwboRDKr4Fay4RT5r6A&oe=64FD3521',
   soundFx: '', 
   otherFx: null,
   confetti: false,
