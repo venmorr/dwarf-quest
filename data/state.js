@@ -26,7 +26,7 @@ const states = [
   otherFx: null,
   confetti: false,
   text: 'THE END',
-  choices: ['try again', null, null, null], 
+  choices: ['Play again?', null, null, null], 
   nextState: [1, null, null, null],
 },
 { state: 3, //home
@@ -91,7 +91,7 @@ const states = [
 },
 { state: 9, //Reading the note
   name: 'Reading the note',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375752180_10231501430458045_3661397026075275113_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=8XxJnbTXr3kAX_y87c-&_nc_oc=AQk9zu8cgr08-HCrPKmU3zTqRPHyTDGOf_ZK38firdHHnGbaxTXtsSPeH3HZYVZgW7Y&_nc_ht=scontent-lga3-1.xx&oh=00_AfDsvymuWLpOV2lIQYKo05_p2E5RV22-c3-5H4RMf4gq6A&oe=64FD2E6B',
   soundFx: '', 
   otherFx: null,
   confetti: false,
@@ -379,7 +379,7 @@ const states = [
   choices: ['Charge foward yelling', 'Sneak forward cairfully', null, null], 
   nextState: [38, 38, null, null],
 },
-{ state: 38, 
+{ state: 38, //SUPRISE!!!!
   name: 'SUPRISE!!!!',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
@@ -389,7 +389,7 @@ const states = [
   choices: ["Celebrate", null, null, null], 
   nextState: [39, null, null, null],
 },
-{ state: 39, 
+{ state: 39, //Celebrate
   name: 'Celebrate',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
