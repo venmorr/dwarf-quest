@@ -18,11 +18,8 @@ function playSwordAudioIV() {
 }
 
 function playSwordAudio() {
-  //pic rand num 0-2
   let randNum = Math.floor(Math.random() * 2)
-  //hold array of functions
   let sounds = [playSwordAudioII, playSwordAudioIII, playSwordAudioIV]
-  //call function from array === randNum
   sounds[randNum]()
 }
 

@@ -3,10 +3,6 @@ console.log('insanity check')
 import states from '../data/state.js'
 import {playSwordAudio} from './audio.js'
 
-
-/*------------ Constants ------------*/ 
-
-
 /*------------ Variables ------------*/
 let currentState
 
@@ -35,16 +31,15 @@ function init() {
 
 function clickHandler(event) {
    playSwordAudio()
-   changeState(event) //here
+   changeState(event)
    checkConfetti()
-   console.log(currentState.state)
-   render() // here
+   render()
 }
 
 function changeState(event) {
    let id = event.target.id
    if (id === 'b1') {
-      let nextState = currentState.nextState[0]  // here 
+      let nextState = currentState.nextState[0]
       currentState = states[nextState]
    } else if (id === 'b2') {
       let nextState = currentState.nextState[1]
@@ -61,13 +56,13 @@ function changeState(event) {
 }
 
 function render() {
-   setImage() // here
+   setImage()
    setText()
    buttonMaker()
 }
 
 function setImage() {
-   scene.setAttribute('src', currentState.image)  // here
+   scene.setAttribute('src', currentState.image)
 }
 
 function setText() {

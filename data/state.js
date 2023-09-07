@@ -119,7 +119,7 @@ const states = [
   choices: ['Try the padlock', 'investigate the encamplent', null, null], 
   nextState: [19, 12, null, null],
 },
-{ state: 12, //Investigate the encampment
+{ state: 12, //Investigate the encampment (need pic)
   name: 'Investigate the encampment',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
@@ -129,7 +129,7 @@ const states = [
   choices: ['Old desk', 'Broken bed', 'Stone chest', 'Return to mine entrance'], 
   nextState: [13, 14, 15, 18],
 },
-{ state: 13, //Old desk
+{ state: 13, //Old desk (need pic)
   name: 'Old desk',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
@@ -139,7 +139,7 @@ const states = [
   choices: ['SMASH IT WITH YOUR AXE!!', 'Return to entrance', null, null], 
   nextState: [16, 18, null, null],
 },
-{ state: 14, //Broken Bed
+{ state: 14, //Broken Bed (need pic)
   name: 'Broken Bed',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
@@ -149,7 +149,7 @@ const states = [
   choices: ['Old desk', 'Stone Chest', 'Return to the mine entrance', null], 
   nextState: [13, 15, 18, null],
 },
-{ state: 15, //Stone chest
+{ state: 15, //Stone chest (need pic)
   name: 'Stone chest',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
@@ -159,7 +159,7 @@ const states = [
   choices: ['Old desk', 'Broked bed', 'Return to the mine Entrance', 'Reach into the chest'], 
   nextState: [13, 14, 18, 17],
 },
-{ state: 16, //Pull/axe desk harder
+{ state: 16, //Pull/axe desk harder (need pic)
   name: 'Pull/axe desk harder',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
@@ -169,7 +169,7 @@ const states = [
   choices: ['Broken bed', 'Stone chest', 'Return to the mine entrance', null], 
   nextState: [14, 15, 18, null],
 },
-{ state: 17, //Stone chest false bottom
+{ state: 17, //Stone chest false bottom (need pic)
   name: 'Stone chest false bottom',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
