@@ -11,7 +11,7 @@ const states = [
 },
 { state: 1, //Start Screen
   name: 'Start Screen',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
   soundFx: '', 
   otherFx: null,
   confetti: false,

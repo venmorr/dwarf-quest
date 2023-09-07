@@ -1,4 +1,4 @@
-# <ins>dwarf-quest<ins/>
+# <ins>DWARF QUEST<ins/>
 by: Steven Morrison
 
 ![Alt text](assets/images/DQScreenshot.png)
@@ -38,4 +38,4 @@ One cool function I wrote is this random sound function, which I'm particularly 
 - Incorporate an inventory system. Here, different `nextState` options might be accessible depending on specific item boolean conditions.  
 - Embed a health tracking mechanism that monitors the player's HP throughout the gameplay. Reaching zero will transition the player to the game's conclusion.  
 - With the integration of inventory and health, I aspire to introduce a turn-based battle mechanism akin to popular games like Final Fantasy or Pokémon.  
-- Lastly, I wish to refine the game's sound system. While I take pride in my playSwordAudio function, I'm eager to diversify the sounds based on the game state or player choices.
+- Lastly, I wish to refine the game's sound system. While I take pride in my playSwordAudio function, I'm eager to diversify the sounds based on the game state or player choices and even some music or atmospheric effects throughout the game.
