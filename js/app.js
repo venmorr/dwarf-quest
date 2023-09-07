@@ -14,12 +14,14 @@ const choice1 = document.getElementById('b1')
 const choice2 = document.getElementById('b2')
 const choice3 = document.getElementById('b3')
 const choice4 = document.getElementById('b4')
+const restart = document.getElementById('restart')
 
 /*--------- Event Listeners ---------*/
 choice1.addEventListener('click', clickHandler)
 choice2.addEventListener('click', clickHandler)
 choice3.addEventListener('click', clickHandler)
 choice4.addEventListener('click', clickHandler)
+restart.addEventListener('click', restartGame)
 
 /*------------ Functions ------------*/
 init()
@@ -85,4 +87,8 @@ function checkConfetti() {
       console.log('FIRING THE CONFETTI CANNON')
       confetti.start(2000)
    }
+}
+
+function restartGame() {
+   init()
 }

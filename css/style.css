@@ -33,9 +33,11 @@ body {
 .interface {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   height: 45%;
+  font-family:fantasy;
+  font-size: 21px;
 }
 
 .text {
@@ -68,6 +70,22 @@ body {
 }
 
 button:hover{
+  cursor: pointer;
+  background-color: #880808;
+  
+}
+
+#restart {
+  box-sizing: border-box;
+  color: #e3e3e3;
+  background-color: #88080899;
+  padding: 2px 5px;
+  display:  flex;
+  align-items: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+
+#reset:hover{
   cursor: pointer;
   background-color: #880808;
 }

@@ -1,5 +1,5 @@
 # <ins>DWARF QUEST<ins/>
-by: Steven Morrison
+Coded and illistrated by: Steven Morrison
 
 ![Alt text](assets/images/DQScreenshot.png)
 
@@ -10,7 +10,7 @@ Try it yourself here:
 **https://dwarf-quest.surge.sh/**
 ##
 
-## Hightlights:  
+## Highlights:  
 
 ```js
 function playSwordAudio() {
