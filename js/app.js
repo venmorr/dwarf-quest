@@ -39,6 +39,7 @@ function clickHandler(event) {
    playSound()
    changeState(event) //here
    checkConfetti()
+   console.log(currentState.state)
    render() // here
 }
 
@@ -94,8 +95,8 @@ function playSound() {
 }
 
 function checkConfetti() {
-   if (currentState === 38) {
+   if (currentState.confetti === true)  { 
       console.log('FIRING THE CONFETTI CANNON')
-      return confetti.start(700)
+      confetti.start(1000)
    }
 }

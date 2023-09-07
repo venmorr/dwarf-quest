@@ -1,13 +1,13 @@
 const states = [
-{ state: 0, //Place Holder Card
-  name: 'Place Holder Card',
-  image: '',
+{ state: 0, //Start Screen
+  name: 'Start Screen',
+  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
   otherFx: null,
   confetti: false,
-  text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium earum sit perferendis dignissimos voluptas ad et quibusdam! Accusamus saepe labore fugiat ipsa cum voluptatem incidunt. Doloribus cumque dignissimos consequuntur.',
-  choices: [null, null, null, null], 
-  nextState: [null, null, null, null],
+  text: 'Something was taken from you. Do you have what it takes to get it back?',
+  choices: ['YES!!', 'no', null, null], 
+  nextState: [3, 2, null, null],
 },
 { state: 1, //Start Screen
   name: 'Start Screen',
@@ -24,7 +24,7 @@ const states = [
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375590642_10231498390222041_5220088064123046453_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=PX701S1uf40AX-9F0AD&_nc_ht=scontent-lga3-1.xx&oh=00_AfCHAPqK95OAs4fItppwxO6x03a6zyXAg3V8vOQiSRhLlg&oe=64FC0FCC',
   soundFx: '', 
   otherFx: null,
-  confetti: false,
+  confetti: true,
   text: 'THE END',
   choices: ['Play again?', null, null, null], 
   nextState: [1, null, null, null],
@@ -209,8 +209,8 @@ const states = [
   choices: ['1', '2', '3', '4'], 
   nextState: [23, 23, 22, 23],
 },
-{ state: 21, //Dial 1 inccorect
-  name: 'Dial 1 inccorect',
+{ state: 21, //Dial 1 inccrecrt
+  name: 'Dial 1 incorrect',
   image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375794033_10231490769191520_3186675507458714014_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=813123&_nc_ohc=YN-TVl6mzGsAX-pmKgK&_nc_ht=scontent-lga3-2.xx&oh=00_AfCKTznkF8M_3aDjV3gfA48yIxCqOuQK2wQbSVoCfmHQYA&oe=64FB4565',
   soundFx: '', 
   otherFx: null,
@@ -229,8 +229,8 @@ const states = [
   choices: ['1', '2', '3', '4'], 
   nextState: [25, 25, 24, 25],
 },
-{ state: 23, //Dial 2 inccorect
-  name: 'Dial 2 inccorect',
+{ state: 23, //Dial 2 incorrect
+  name: 'Dial 2 incorrect',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375456652_10231490769791535_93491380033853523_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ucAHz0TDLUkAX8-bnFE&_nc_ht=scontent-lga3-1.xx&oh=00_AfA6wqBVGDAU39GTZJADMZYmXf0HxyzaXVV850emIAH7zQ&oe=64FB06BF',
   soundFx: '', 
   otherFx: null,
@@ -249,8 +249,8 @@ const states = [
   choices: ['1', '2', '3', '4'], 
   nextState: [27, 27, 27, 26],
 },
-{ state: 25, //Dial 3 inccorect
-  name: 'Dial 2 inccorect',
+{ state: 25, //Dial 3 incorrect
+  name: 'Dial 2 incorrect',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375264724_10231490769311523_8317864562266274291_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=H842jS6Dux4AX9unjq6&_nc_ht=scontent-lga3-1.xx&oh=00_AfBXCmHQ1vQKvJtCmeNuyKBKHWV9dTzNPlpZ511ZNf63rg&oe=64FB7912',
   soundFx: '', 
   otherFx: null,
@@ -269,8 +269,8 @@ const states = [
   choices: ['PULL!', null, null, null], 
   nextState: [28, null, null, null],
 },
-{ state: 27, //Dial 4 inccorect
-  name: 'Dial 4 inccorect',
+{ state: 27, //Dial 4 incorrect
+  name: 'Dial 4 incorrect',
   image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375454403_10231490770031541_4083083105689041054_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=813123&_nc_ohc=VKkimT_7HU0AX-E3bIp&_nc_ht=scontent-lga3-2.xx&oh=00_AfDmOhxcRlnSgqXvsP2t7ym4_Z-z1vHIQWsWhdsxmPjEyA&oe=64FB1AB7',
   soundFx: '', 
   otherFx: null,
@@ -369,18 +369,18 @@ const states = [
   choices: ['Turn left', 'Turn Right', 'Turn back', null], 
   nextState: [33, 36, 36, null],
 },
-{ state: 37, //Right Tunnal
-  name: 'Right Tunnal',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+{ state: 37, //Right Tunnel
+  name: 'Right Tunnel',
+  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375298250_10231505839088258_5019533139538586267_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=813123&_nc_ohc=ONBRgowluKwAX9KU-bz&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVhKcdVHv64WaDj06d2kcb0IBlP0G7X4vnalPQDHTY5g&oe=64FE1CB9',
   soundFx: '', 
   otherFx: null,
   confetti: false,
-  text: 'Steeling yourself, you venture into the right tunnel, your mighty axe held firm. With bated breath and deliberate steps, you tread cautiously, wary of betraying your presence to the source of the faint muttering echoing ahead. Reaching a bend, you press your back against the cold, rough wall, straining to listen intently. Beyond doubt, there are voices, at least three distinct ones. Yet, above the soft murmurs, a faint but unmistakable sound reaches your ears: purring. It`s nearly drowned out by the ambient noises, but there`s no denying it—Méowyn is close. Tightening your grip on the axe and drawing a deep, steadying breath, you contemplate your next move. What`s the best approach?',
+  text: 'Venturing into the right tunnel with your axe in hand, you proceed with caution. The faint mutterings grow louder as you near a bend, revealing at least three distinct voices. But what catches your attention most is a faint purring sound. It`s subtle but unmistakable: Méowyn is nearby. With your back against the wall, you take a moment to consider your next approach. How should you proceed?',
   choices: ['Charge foward yelling', 'Sneak forward cairfully', null, null], 
   nextState: [38, 38, null, null],
 },
-{ state: 38, //SUPRISE!!!!
-  name: 'SUPRISE!!!!',
+{ state: 38, //SURPRISE!!!!
+  name: 'SURPRISE!!!!',
   image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
   soundFx: '', 
   otherFx: null,
