@@ -1,9 +1,7 @@
 console.log('insanity check')
 /*-------------Imports---------------*/
 import states from '../data/state.js'
-// import {playSwordAudioII} from './audio.js'
-// import {playSwordAudioIII} from './audio.js'
-import {playSwordAudioIV} from './audio.js'
+import {playSwordAudio} from './audio.js'
 
 
 /*------------ Constants ------------*/ 
@@ -36,7 +34,7 @@ function init() {
 }
 
 function clickHandler(event) {
-   playSound()
+   playSwordAudio()
    changeState(event) //here
    checkConfetti()
    console.log(currentState.state)
@@ -85,13 +83,6 @@ function buttonMaker(){
          button.innerHTML = currentState.choices[idx]
       }
    })
-}
-
-function playSound() {
-   // playSwordAudioII() 
-   // playSwordAudioIII() 
-   playSwordAudioIV()
-
 }
 
 function checkConfetti() {
