@@ -381,7 +381,7 @@ const states = [
 },
 { state: 38, //SURPRISE!!!!
   name: 'SURPRISE!!!!',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/376484823_10231507616292687_5995944437707494014_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=813123&_nc_ohc=66Tfe05J-dgAX8zpOiG&_nc_ht=scontent-lga3-1.xx&oh=00_AfAcaE4E9lhAAcWgcc2Y9plRDCR9nR8sf6y91ttz-uEXIg&oe=64FEE797',
   soundFx: '', 
   otherFx: null,
   confetti: true,
@@ -391,7 +391,7 @@ const states = [
 },
 { state: 39, //Celebrate
   name: 'Celebrate',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375826803_10231507616412690_8933690162118074429_n.jpg?stp=cp6_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=813123&_nc_ohc=TV1rLEFvMCAAX-vWu8l&_nc_ht=scontent-lga3-2.xx&oh=00_AfDnUX24UtD_XSD0cLd8dp1SZJnGPETfxitYSLmQDAQRLA&oe=64FE6B57',
   soundFx: '', 
   otherFx: null,
   confetti: false,
@@ -404,7 +404,7 @@ const states = [
   image: 'null',
   soundFx: '', 
   otherFx: null,
-  confetti: false,
+  confetti: true,
   text: 'null',
   choices: [null, null, null, null], 
   nextState: [1, null, null, null],

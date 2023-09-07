@@ -88,6 +88,6 @@ function buttonMaker(){
 function checkConfetti() {
    if (currentState.confetti === true)  { 
       console.log('FIRING THE CONFETTI CANNON')
-      confetti.start(1000)
+      confetti.start(2000)
    }
 }
