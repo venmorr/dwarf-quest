@@ -4,7 +4,7 @@ import states from '../data/state.js'
 import {playSwordAudio} from './audio.js'
 
 /*------------ Variables ------------*/
-let currentState
+let currentState, score
 
 /*---- Cached Element References ----*/
 const scene = document.querySelector('img')
@@ -14,6 +14,7 @@ const choice1 = document.getElementById('b1')
 const choice2 = document.getElementById('b2')
 const choice3 = document.getElementById('b3')
 const choice4 = document.getElementById('b4')
+const scoreEl = document.getElementById('score')
 const restart = document.getElementById('restart')
 
 /*--------- Event Listeners ---------*/
@@ -28,10 +29,14 @@ init()
 
 function init() {
    currentState = states[1]
+   score = 0
+   scoreEl.innerText = score
    render()
 }
 
 function clickHandler(event) {
+   addScore()
+   console.log(score)
    playSwordAudio()
    changeState(event)
    checkConfetti()
@@ -91,4 +96,9 @@ function checkConfetti() {
 
 function restartGame() {
    init()
+}
+
+function addScore() {
+   score ++
+   scoreEl.innerText = score
 }

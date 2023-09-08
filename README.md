@@ -28,9 +28,9 @@ I am also really proud of a puzzle I designed. In the game you will need to get 
 ##
 ## Attributions:   
   - Sword Clash 2, 3, and 4: 32Cheeseman32  
-    - https://freesound.org/people/32cheeseman32/sounds/180819/  
-    - https://freesound.org/people/32cheeseman32/sounds/180818/  
-    - https://freesound.org/people/32cheeseman32/sounds/180817/  
+    - [sword clash 02](https://freesound.org/people/32cheeseman32/sounds/180819/)  
+    - [sword clash 02](https://freesound.org/people/32cheeseman32/sounds/180818/ ) 
+    - [sword clash 02](https://freesound.org/people/32cheeseman32/sounds/180817/  )
 ##
 ## Technologies Used:  
   - JavaScript  
@@ -39,8 +39,12 @@ I am also really proud of a puzzle I designed. In the game you will need to get 
   - Procreate  
 ##
 ## Next Steps:  
-- Transition the game into a more dynamic state change system. At present, it relies on an array index to traverse various state objects. Altering the sequence of this array necessitates revisiting each state and adjusting the values in their `nextState` properties.  
-- Incorporate an inventory system. Here, different `nextState` options might be accessible depending on specific item boolean conditions.  
-- Embed a health tracking mechanism that monitors the player's HP throughout the gameplay. Reaching zero will transition the player to the game's conclusion.  
-- With the integration of inventory and health, I aspire to introduce a turn-based battle mechanism akin to popular games like Final Fantasy or Pokémon.  
-- Lastly, I wish to refine the game's sound system. While I take pride in my playSwordAudio function, I'm eager to diversify the sounds based on the game state or player choices and even some music or atmospheric effects throughout the game.
+- Transition the game to a more dynamic state change system. Currently, it uses an array index to traverse various state objects. Changing the order of this array requires us to revisit each state and modify the values in their nextState properties.
+
+- Implement an inventory system. Depending on specific item boolean conditions, different nextState options may become accessible.
+
+- Introduce a health tracking mechanism that keeps track of the player's HP throughout the gameplay. If it reaches zero, the game will conclude.
+
+- By integrating the inventory and health systems, I aim to introduce a turn-based battle mechanism, similar to iconic games like Final Fantasy or Pokémon.
+
+- Finally, I want to enhance the game's audio experience. While I am proud of my playSwordAudio function, I'm keen to diversify the sounds based on the game state, player choices, and even incorporate music or atmospheric effects throughout the game.

@@ -26,6 +26,7 @@ var confetti = {
 	confetti.remove = removeConfetti;
 	confetti.isRunning = isConfettiRunning;
 	var supportsAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame;
+	// var colors = ["rgba(200,30,170", "rgb(239, 210, 210"]; // neyon green
 	// var colors = ["rgba(57,255,20,"]; // neyon green
 	// var colors = ["rgba(255,117,24,"]; // pumpkin
 	var colors = ["rgba(227,227,227,"]; // white
