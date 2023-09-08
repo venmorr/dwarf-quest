@@ -35,8 +35,7 @@ function init() {
 }
 
 function clickHandler(event) {
-   addScore()
-   console.log(score)
+   score ++
    playSwordAudio()
    changeState(event)
    checkConfetti()
@@ -57,15 +56,14 @@ function changeState(event) {
    } else if (id === 'b4') {
       let nextState = currentState.nextState[3]
       currentState = states[nextState]
-   } else {
-      console.log('oopsies')
-   }
+   } 
 }
 
 function render() {
    setImage()
    setText()
    buttonMaker()
+   scoreEl.innerText = score
 }
 
 function setImage() {
@@ -96,9 +94,4 @@ function checkConfetti() {
 
 function restartGame() {
    init()
-}
-
-function addScore() {
-   score ++
-   scoreEl.innerText = score
 }
