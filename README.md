@@ -39,6 +39,7 @@ I am also really proud of a puzzle I designed. In the game you will need to get 
   - HTML  
   - CSS  
   - Procreate  
+  - ChatGPT (only to assist in the story writing, not the code)
 ##
 ## Next Steps:  
 - Transition the game to a more dynamic state change system. Currently, it uses an array index to traverse various state objects. Changing the order of this array requires us to revisit each state and modify the values in their nextState properties.
