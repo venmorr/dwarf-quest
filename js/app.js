@@ -94,4 +94,4 @@ function checkConfetti() {
 
 function restartGame() {
    init()
-}
+} 
