@@ -281,7 +281,7 @@ const states = [
 },
 { state: 35, //correct path 3
   name: 'correct path 3',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375303351_10231505087229462_1008244815022238865_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=813123&_nc_ohc=hNoEU2Nkf6wAX-eLXFB&_nc_ht=scontent-lga3-2.xx&oh=00_AfAMC0maGujwhJ0PIPwWKgsu4UIrEo0AjlmPdPmc1kCVzg&oe=64FDE22E',
+  image: 'https://i.imgur.com/zJHmpXG.jpg',
   confetti: false,
   text: 'At long last, your path does not lead to a laughing skeleton. Who could imagine you would be happy to see the original cavern again? With two mighty swings of your axe, you gouge an "X" above the left path, hoping that never again will an unfortunate soul become part of the skeleton`s sick joke. Now, where is Phantom? Is he in the muttering tunnel to the right, or the large tunnel with the unsettling streaks leading down the center?',
   choices: ['Center tunnel', 'Right tunnel', null, null], 
@@ -313,7 +313,7 @@ const states = [
 },
 { state: 39, //Celebrate
   name: 'Celebrate',
-  image: 'https://i.imgur.com/9djjSv9.jpg',
+  image: 'https://i.imgur.com/h2slOKi.jpg',
   confetti: true,
   text: 'The cavern fills with laughter and song. Old friends gather, sharing tales and raising their mugs. At the center is a grand cake adorned with symbols of past quests. You cut into it, Méowyn purring and sneaking a taste of frosting beside you. In this moment, surrounded by camaraderie and joy, your birthday feels truly special.',
   choices: ['The end', null, null, null], 
