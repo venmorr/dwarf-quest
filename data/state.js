@@ -1,7 +1,7 @@
 const states = [
 { state: 0, //Start Screen
   name: 'Start Screen',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=WB2o_V5N4LoAX9rrRCu&_nc_ht=scontent-lga3-1.xx&oh=00_AfCni21fDSMsyXxkH0c9YYjNgQtTQ45ynBpRyMx5tNM1ug&oe=64F9A65A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'Something was taken from you. Do you have what it takes to get it back?',
   choices: ['YES!!', 'no', null, null], 
@@ -9,7 +9,7 @@ const states = [
 },
 { state: 1, //Start Screen
   name: 'Start Screen',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'Something was taken from you. Do you have what it takes to get it back?',
   choices: ['YES!', 'NO!', null, null], 
@@ -17,7 +17,7 @@ const states = [
 },
 { state: 2, //the end
   name: 'the end',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375590642_10231498390222041_5220088064123046453_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=PX701S1uf40AX-9F0AD&_nc_ht=scontent-lga3-1.xx&oh=00_AfCHAPqK95OAs4fItppwxO6x03a6zyXAg3V8vOQiSRhLlg&oe=64FC0FCC',
+  image: 'https://i.imgur.com/SH4yoZj.jpg',
   confetti: true,
   text: 'THE END',
   choices: [null, null, null, null], 
@@ -25,7 +25,7 @@ const states = [
 },
 { state: 3, //home
   name: 'home',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375327627_10231491022037841_2094200356543834333_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=813123&_nc_ohc=_IfXkJxvEI0AX-1YR9v&_nc_ht=scontent-lga3-1.xx&oh=00_AfCJQOCiZ4tdFot16euzklpMpRNX8dQg1DiAHD9VJjsD4A&oe=64FAB54D',
+  image: 'https://i.imgur.com/HRR8T8C.jpg',
   confetti: false,
   text: 'It has been a long day. A long life, even for a dwarf. It is always good to get home, kick off your boots, put on some tea, and relax with your beloved cat. What to do first...',
   choices: ['Kick off Boots', 'Put on some Tea', 'Pet Méowyn', null], 
@@ -33,7 +33,7 @@ const states = [
 },
 { state: 4, //kick off your boots
   name: 'kick off your boots',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/373313911_10231497196072188_2319806913947617323_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=813123&_nc_ohc=AuNg7DmJqXQAX9qq3pR&_nc_ht=scontent-lga3-2.xx&oh=00_AfBwVoRszPqLXsnoV4DavynbonoXB0ZNsKNjVqcyiwRHOA&oe=64FB82F1',
+  image: 'https://i.imgur.com/1QiTym8.jpg',
   confetti: false,
   text: 'Ahhh, nothing like freeing the hounds. Fun fact: dwarves have long held the record for smelliest feet among the civilized peoples, a title they hold proudly. What next?',
   choices: ['Put on some tea', 'Pet Méowyn', null, null], 
@@ -41,7 +41,7 @@ const states = [
 },
 { state: 5, //put on some tea 1
   name: 'put on some tea 1',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/374931183_10231492423152868_1463909025714309972_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=2lJDT0KiergAX83RldL&_nc_ht=scontent-lga3-1.xx&oh=00_AfDqtNq_NJnVrS45gC5-C4AB9k3zzQzkaGg5AF7seZQ1kw&oe=64FBDD3B',
+  image: 'https://i.imgur.com/D797ctO.jpg',
   confetti: false,
   text: 'The smell of a struck match, the sound of the kettle boiling, and the satisfaction of tea leaves unfurling as they steep. Few things in life are better than a good cup of tea. Now then, what next?',
   choices: ['Kick off boots', 'Pet Méowyn', null, null], 
@@ -49,7 +49,7 @@ const states = [
 },
 { state: 6, //kick off boots 2
   name: 'kick off boots 2',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/373313911_10231497196072188_2319806913947617323_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=813123&_nc_ohc=AuNg7DmJqXQAX9qq3pR&_nc_ht=scontent-lga3-2.xx&oh=00_AfBwVoRszPqLXsnoV4DavynbonoXB0ZNsKNjVqcyiwRHOA&oe=64FB82F1',
+  image: 'https://i.imgur.com/1QiTym8.jpg',
   confetti: false,
   text: 'Ahhh, nothing like freeing the hounds. Fun fact: dwarves have long held the record for the smelliest feet among the civilized peoples, a title they hold proudly. Now, finally, it is time to...',
   choices: ['Pet Méowyn', null, null, null], 
@@ -57,7 +57,7 @@ const states = [
 },
 { state: 7, //put on some tea 2
   name: 'put on some tea 2',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/374931183_10231492423152868_1463909025714309972_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=2lJDT0KiergAX83RldL&_nc_ht=scontent-lga3-1.xx&oh=00_AfDqtNq_NJnVrS45gC5-C4AB9k3zzQzkaGg5AF7seZQ1kw&oe=64FBDD3B',
+  image: 'https://i.imgur.com/D797ctO.jpg',
   confetti: false,
   text: 'The smell of a struck match, the sound of the kettle boiling, and the satisfaction of tea leaves unfurling as they steep – few things in life are better than a good cup of tea. Now, finally, it is time to...',
   choices: ['Pet Méowyn', null, null, null], 
@@ -65,7 +65,7 @@ const states = [
 },
 { state: 8, //Petting Méowyn 
   name: 'Petting Méowyn',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375453747_10231498332100588_8032725069237199576_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=lMXcC7m9FA0AX8fTxBG&_nc_oc=AQmIMP3rxFxFvEipGw_nue2ZtaQwpBbPFQ4OHEVSrOWv4zblahsOvsE4A2eEvTp9lSo&_nc_ht=scontent-lga3-1.xx&oh=00_AfD7ybsJuHDn3w_iNVf42SN-4fJnFP9oeKlqHiXjqsYOBw&oe=64FB8FBE',
+  image: 'https://i.imgur.com/q2sfX78.jpg',
   confetti: false,
   text: 'You turn to look for your cat, but she is not there. By now, she would have been under your feet, rubbing against your leg, looking for a treat. You rush into the other room, to her favorite spot where she`s always found napping in the beam of sunlight. But instead of your cat, there`s a note.',
   choices: ['Read the note', null, null, null], 
@@ -73,7 +73,7 @@ const states = [
 },
 { state: 9, //Reading the note
   name: 'Reading the note',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375752180_10231501430458045_3661397026075275113_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=8XxJnbTXr3kAX_y87c-&_nc_oc=AQk9zu8cgr08-HCrPKmU3zTqRPHyTDGOf_ZK38firdHHnGbaxTXtsSPeH3HZYVZgW7Y&_nc_ht=scontent-lga3-1.xx&oh=00_AfDsvymuWLpOV2lIQYKo05_p2E5RV22-c3-5H4RMf4gq6A&oe=64FD2E6B',
+  image: 'https://i.imgur.com/Avia63L.jpg',
   confetti: false,
   text: 'It`s a calling card. The infamous thief known as Phantom left it. It reads, "I have your cat Admiral Ironbreaker. If you want it back come find me. Bring that Legendary axe of yours. You will need it."',
   choices: ['Tear the note', 'Yell out, "PHANTOM!"', 'Grab your axe', 'All of the above'], 
@@ -81,7 +81,7 @@ const states = [
 },
 { state: 10, //Leaving to find Méowyn
   name: 'Leaving to find Méowyn',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375044607_10231504487334465_8797760578869012299_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=813123&_nc_ohc=tiUb8LlyA9sAX-kySVl&_nc_ht=scontent-lga3-2.xx&oh=00_AfDhzU30PM1AYQbqVQFns_YzQzgPwboRDKr4Fay4RT5r6A&oe=64FD3521',
+  image: 'https://i.imgur.com/SvqCnvW.jpg',
   confetti: false,
   text: 'The Phantom is devious and hard to pin down. However, there are some rumors as to were he makes his base. The abandoned mine in the foot hills, or deep in the dark woods are the most likely and among the first places you should look. Where first?',
   choices: ['Abandoned Mine', 'Dark Woods', null, null], 
@@ -89,7 +89,7 @@ const states = [
 },
 { state: 11, //Mine entrance
   name: 'Mine entrance',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/376228665_10231504663098859_4720376328722869103_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=sseUD8Ct8_0AX9EbRja&_nc_ht=scontent-lga3-1.xx&oh=00_AfBDCGB3Op4h2nCxw-tkRIncoON4ecuf2ccrCvaEqDSOKA&oe=64FD6DB5', 
+  image: 'https://i.imgur.com/SeZRy4T.jpg', 
   confetti: false,
   text: 'It`s not a far walk to the entrance of the Abandoned Mine, and with the fury of a dwarf, your feet carry you briskly and tirelessly. You come to stand before the grand gate, built during the mine`s abandonment. It`s wrought of iron and embedded in tall gray stone walls. Whatever was discovered in the mine that led to its abandonment must have been perilous to warrant such a magnificent piece of dwarven craftsmanship, either to keep people out... or to keep whatever they found inside. The gate is secured by a large metal padlock. To the right, there`s a guard`s encampment. What shall you do?',
   choices: ['Try the padlock', 'The encamplent', null, null], 
@@ -97,7 +97,7 @@ const states = [
 },
 { state: 12, //Investigate the encampment (need pic)
   name: 'Investigate the encampment',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'Long ago, when this was built, a system of guards was put in place to increase security. But since the war with the giants escalated, every young and able-bodied dwarf was shipped north to fight. Like the mine, this place was also abandoned. All that remains is an old desk, a broken bed, and a chest of stone built into the earth. Where shall you look?',
   choices: ['Old desk', 'Broken bed', 'Stone chest', 'Mine entrance'], 
@@ -105,7 +105,7 @@ const states = [
 },
 { state: 13, //Old desk (need pic)
   name: 'Old desk',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'This old desk has seen better days. Its surface scarred by many a knife tip flipped in boredom by guards asked to stand watch over a mine no one was interested in exploring. Gods, you hope they are still bored on whatever battlefront they were sent to. There is a single drawer built into its side. You attempt to open it, but it is jammed shut.',
   choices: ['SMASH IT WITH YOUR AXE!!', 'Return to entrance', null, null], 
@@ -113,7 +113,7 @@ const states = [
 },
 { state: 14, //Broken Bed (need pic)
   name: 'Broken Bed',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'There is nothing here. Wildlife and vagrants have stripped it to the frame. If there was anything useful left, you cannot figure it out.',
   choices: ['Old desk', 'Stone Chest', 'Return to the mine entrance', null], 
@@ -121,7 +121,7 @@ const states = [
 },
 { state: 15, //Stone chest (need pic)
   name: 'Stone chest',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'The stone chest sits in the corner. Fine dwarven craftsmanship. Something like this was built here first, the rest of this place around it. You run your hand over its lid, admiring it, before, with a heave, you lift its heavy lid. You look inside. There is nothing.',
   choices: ['Old desk', 'Broked bed', 'Return to the mine Entrance', 'Reach into the chest'], 
@@ -129,7 +129,7 @@ const states = [
 },
 { state: 16, //Pull/axe desk harder (need pic)
   name: 'Pull/axe desk harder',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'With a heave followed by the popping of wood being ripped apart, you free the drawer from its confinement. Alas, nothing but dust bursts forth and fills the room. You wipe the fallen dust from your face and compose yourself. There is still the broken bed and the stone chest to check. Or you can give up on this place and return to the gate.',
   choices: ['Broken bed', 'Stone chest', 'Return to the mine entrance', null], 
@@ -137,7 +137,7 @@ const states = [
 },
 { state: 17, //Stone chest false bottom (need pic)
   name: 'Stone chest false bottom',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'You feel around the stone chest`s stone floor and soon find a spot that, when pushed, gives in slightly with a click. You smile to yourself. "Fine dwarven craftsmanship," you mutter as the false bottom of the chest slides up to reveal a small piece of paper. You lift it out of the chest and squint to read its small writing. It reads, "1-3-3-4." Could these numbers be...',
   choices: ['Return to the entrance', null, null, null], 
@@ -145,7 +145,7 @@ const states = [
 },
 { state: 18, //Return to the entrance 
   name: 'Return to the entrance',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/376228665_10231504663098859_4720376328722869103_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=sseUD8Ct8_0AX9EbRja&_nc_ht=scontent-lga3-1.xx&oh=00_AfBDCGB3Op4h2nCxw-tkRIncoON4ecuf2ccrCvaEqDSOKA&oe=64FD6DB5',
+  image: 'https://i.imgur.com/SeZRy4T.jpg',
   confetti: false,
   text: 'You return to the gate at the entrance to the mine. The padlock gleams in the sun, its fine dwarven craftsmanship evident from afar.',
   choices: ['Try the padlock', 'Investigate the encampment', null, null], 
@@ -153,7 +153,7 @@ const states = [
 },
 { state: 19, //padlock 0
   name: 'padlock 0',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375226307_10231490593787135_5472186744831628837_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=FCl4ebWTUcwAX_GJFaP&_nc_ht=scontent-lga3-1.xx&oh=00_AfBTHmDUYasiot6N5Pa037paiPm87D3A8Iw-yBHGKnaUDg&oe=64FAE2B9',
+  image: 'https://i.imgur.com/THC1s8e.jpg',
   confetti: false,
   text: 'The padlock is heavy and warm in your hand. You turn it up to see its dials. There are four of them, each ranging from 1 to 4. Four dials with four choices each. That`s... 256 possible combinations! Do you think you can crack it?',
   choices: ['1', '2', '3', '4'], 
@@ -161,15 +161,15 @@ const states = [
 },
 { state: 20, //Dial 1 correct
   name: 'Dial 1 correct',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375794033_10231490769191520_3186675507458714014_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=813123&_nc_ohc=YN-TVl6mzGsAX-pmKgK&_nc_ht=scontent-lga3-2.xx&oh=00_AfCKTznkF8M_3aDjV3gfA48yIxCqOuQK2wQbSVoCfmHQYA&oe=64FB4565',
+  image: 'https://i.imgur.com/LMmh52R.jpg',
   confetti: false,
   text: 'The first dial slides into place with a satisfying click. It is impossible to tell if it was the correct choice yet. You still have three more dials to go.',
   choices: ['1', '2', '3', '4'], 
   nextState: [23, 23, 22, 23],
 },
-{ state: 21, //Dial 1 inccrecrt
+{ state: 21, //Dial 1 incorrect
   name: 'Dial 1 incorrect',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375794033_10231490769191520_3186675507458714014_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=813123&_nc_ohc=YN-TVl6mzGsAX-pmKgK&_nc_ht=scontent-lga3-2.xx&oh=00_AfCKTznkF8M_3aDjV3gfA48yIxCqOuQK2wQbSVoCfmHQYA&oe=64FB4565',
+  image: 'https://i.imgur.com/LMmh52R.jpg',
   confetti: false,
   text: 'The first dial slides into place with a satisfying click. It is impossible to tell if it was the correct choice yet. You still have three more dials to go.',
   choices: ['1', '2', '3', '4'], 
@@ -177,7 +177,7 @@ const states = [
 },
 { state: 22, //Dial 2 correct
   name: 'Dial 2 correct',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375456652_10231490769791535_93491380033853523_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ucAHz0TDLUkAX8-bnFE&_nc_ht=scontent-lga3-1.xx&oh=00_AfA6wqBVGDAU39GTZJADMZYmXf0HxyzaXVV850emIAH7zQ&oe=64FB06BF',
+  image: 'https://i.imgur.com/LN4sYBZ.jpg',
   confetti: false,
   text: 'The second dial is nearly as satisfying as the first. But again, it is impossible to tell if it was the correct choice yet. You still have two more dials to go. Your palms grow sweaty in antici...........................pation.',
   choices: ['1', '2', '3', '4'], 
@@ -185,7 +185,7 @@ const states = [
 },
 { state: 23, //Dial 2 incorrect
   name: 'Dial 2 incorrect',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375456652_10231490769791535_93491380033853523_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ucAHz0TDLUkAX8-bnFE&_nc_ht=scontent-lga3-1.xx&oh=00_AfA6wqBVGDAU39GTZJADMZYmXf0HxyzaXVV850emIAH7zQ&oe=64FB06BF',
+  image: 'https://i.imgur.com/LN4sYBZ.jpg',
   confetti: false,
   text: 'The second dial is nearly as satisfying as the first. But again, it is impossible to tell if it was the correct choice yet. You still have two more dials to go. Your palms grow sweaty in antici...........................pation.',
   choices: ['1', '2', '3', '4'], 
@@ -193,7 +193,7 @@ const states = [
 },
 { state: 24, //Dial 3 correct
   name: 'Dial 3 correct',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375264724_10231490769311523_8317864562266274291_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=H842jS6Dux4AX9unjq6&_nc_ht=scontent-lga3-1.xx&oh=00_AfBXCmHQ1vQKvJtCmeNuyKBKHWV9dTzNPlpZ511ZNf63rg&oe=64FB7912',
+  image: 'https://i.imgur.com/fr2WlRW.jpg',
   confetti: false,
   text: 'The third dial slides into place. Still, nothing gives away if it was the correct choice. You are onto the final dial! A drip of sweat rolls down your forehead. A pang of urgency hits your heart as you think of Méowyn with that thief. If she is in there and you can`t get past this gate... you try not to think about it.',
   choices: ['1', '2', '3', '4'], 
@@ -201,7 +201,7 @@ const states = [
 },
 { state: 25, //Dial 3 incorrect
   name: 'Dial 2 incorrect',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375264724_10231490769311523_8317864562266274291_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=813123&_nc_ohc=H842jS6Dux4AX9unjq6&_nc_ht=scontent-lga3-1.xx&oh=00_AfBXCmHQ1vQKvJtCmeNuyKBKHWV9dTzNPlpZ511ZNf63rg&oe=64FB7912',
+  image: 'https://i.imgur.com/fr2WlRW.jpg',
   confetti: false,
   text: 'The third dial slides into place. Still, nothing gives away if it was the correct choice. You are onto the final dial! A drip of sweat rolls down your forehead. A pang of urgency hits your heart as you think of Méowyn with that thief. If she is in there and you can`t get past this gate... you try not to think about it.',
   choices: ['1', '2', '3', '4'], 
@@ -209,7 +209,7 @@ const states = [
 },
 { state: 26, //Dial 4 correct
   name: 'Dial 4 correct',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375454403_10231490770031541_4083083105689041054_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=813123&_nc_ohc=VKkimT_7HU0AX-E3bIp&_nc_ht=scontent-lga3-2.xx&oh=00_AfDmOhxcRlnSgqXvsP2t7ym4_Z-z1vHIQWsWhdsxmPjEyA&oe=64FB1AB7',
+  image: 'https://i.imgur.com/LAafzXQ.jpg',
   confetti: false,
   text: 'Finally, the last dial. You hold your breath as you grasp the body of the lock and try to pull it free of its shackle.',
   choices: ['PULL!', null, null, null], 
@@ -217,7 +217,7 @@ const states = [
 },
 { state: 27, //Dial 4 incorrect
   name: 'Dial 4 incorrect',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375454403_10231490770031541_4083083105689041054_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=813123&_nc_ohc=VKkimT_7HU0AX-E3bIp&_nc_ht=scontent-lga3-2.xx&oh=00_AfDmOhxcRlnSgqXvsP2t7ym4_Z-z1vHIQWsWhdsxmPjEyA&oe=64FB1AB7',
+  image: 'https://i.imgur.com/LAafzXQ.jpg',
   confetti: false,
   text: 'Finally, the last dial. You hold your breath as you grasp the body of the lock and try to pull it free of its shackle.',
   choices: ['PULL!', null, null, null], 
@@ -225,7 +225,7 @@ const states = [
 },
 { state: 28, //The lock opens
   name: 'The lock opens',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/373839176_10231504810822552_5026395832426692798_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=813123&_nc_ohc=nyU-87sIsfcAX9qY6yS&_nc_ht=scontent-lga3-2.xx&oh=00_AfCsQ0ch1jlo27IeHtUxHYOTtZFWnVZCEB-ZOMf53MYV4A&oe=64FD87DC',
+  image: 'https://i.imgur.com/Jyv89mU.jpg',
   confetti: false,
   text: 'The lock comes apart and the heavy chains fall to the side loudly. You let out a sigh of relief.',
   choices: ['continue into the abandoned mine', null, null, null], 
@@ -233,7 +233,7 @@ const states = [
 },
 { state: 29, //The lock dosnt open
   name: 'The lock dosnt open',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375226307_10231490593787135_5472186744831628837_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=FCl4ebWTUcwAX_GJFaP&_nc_ht=scontent-lga3-1.xx&oh=00_AfBTHmDUYasiot6N5Pa037paiPm87D3A8Iw-yBHGKnaUDg&oe=64FAE2B9',
+  image: 'https://i.imgur.com/THC1s8e.jpg',
   confetti: false,
   text: 'You pull and pull, but the lock won`t come loose. Rage fills you and for a moment you think to bring your axe down upon the accursed thing, but you know it would be no use. Nothing can break fine dwarven craftsmanship, not even fine dwarven craftsmanship itself. In the back of your mind, you think about a parable of a god who can strike themselves and have it hurt. Would such a god be considered strong or weak? You shake the thought from your mind and refocus to save Méowyn. Will you try the padlock again, or try something else?',
   choices: ['Try the padlock again', 'Try something else', null, null], 
@@ -241,7 +241,7 @@ const states = [
 },
 { state: 30, //padlock 0 take 2
   name: 'padlock 0 take 2',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375226307_10231490593787135_5472186744831628837_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=FCl4ebWTUcwAX_GJFaP&_nc_ht=scontent-lga3-1.xx&oh=00_AfBTHmDUYasiot6N5Pa037paiPm87D3A8Iw-yBHGKnaUDg&oe=64FAE2B9',
+  image: 'https://i.imgur.com/THC1s8e.jpg',
   confetti: false,
   text: 'The padlock feels regrettably familiar in your hands now. As you bear down to try again, your thumb rests on the first dial... 256 possible combinations!',
   choices: ['1', '2', '3', '4'], 
@@ -249,7 +249,7 @@ const states = [
 },
 { state: 31, //Main cavern
   name: 'Continue into the mine',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375303351_10231505087229462_1008244815022238865_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=813123&_nc_ohc=hNoEU2Nkf6wAX-eLXFB&_nc_ht=scontent-lga3-2.xx&oh=00_AfAMC0maGujwhJ0PIPwWKgsu4UIrEo0AjlmPdPmc1kCVzg&oe=64FDE22E',
+  image: 'https://i.imgur.com/zJHmpXG.jpg',
   confetti: false,
   text: 'With a determined shove, the towering gate groans in protest, but you manage to push it wide open. As you hurry into the mine`s shadowy maw, the axe`s weight reminds you of your mission. Your steps, driven by anger towards Phantom, carry you past discarded mining tools. The paths become darker and more ominous, setting your nerves on edge. When the chilling air signals a deeper depth, three paths appear. A cruel mist rolls from the left, faint muttering echoes from the right, and unsettling streaks mar the center path ahead. Méowyn`s safety drives you on. Which path: left, center, or right?',
   choices: ['Left tunnel', 'Center tunnel', 'Right tunnel', null], 
@@ -257,7 +257,7 @@ const states = [
 },
 { state: 32, //Left path from the main cavern
   name: 'Left path from the main cavern',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375317204_10231505323235362_7262325012835360713_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=h3l6gur4Hd0AX-Lhs2T&_nc_ht=scontent-lga3-1.xx&oh=00_AfBE7gIxlW3dMc2hx615eNPbe0pq-iKB0VORlwlH8KQO9w&oe=64FDE835',
+  image: 'https://i.imgur.com/CEJduy6.jpg',
   confetti: false,
   text: 'As you veer left into the passage, a shiver crawls down your spine, making each step feel weighted with foreboding. The path stretches out ahead, dark and unwelcoming, until it splits into a fork. Against the cold stone wall, a skeleton is cruelly strapped, contorted in a macabre mimicry of laughter. Its jaw gapes, as if gasping for air amidst hysterical chuckles from a joke only it knows. Its right hand clutches its ribs, suggesting a deep, uncontrollable mirth. Which way will you choose?',
   choices: ['Turn left', 'Turn Right', 'Turn back', null], 
@@ -265,7 +265,7 @@ const states = [
 },
 { state: 33, //correct path 1
   name: 'correct path 1',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375601730_10231505323075358_7120987133049483441_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=813123&_nc_ohc=_GoBpj5Tr5sAX9xWKUK&_nc_ht=scontent-lga3-1.xx&oh=00_AfA48j5-XvyJ02sLSNeGdkPcBhtP-jmCgwgWpByZk7WF1Q&oe=64FE68A8',
+  image: 'https://i.imgur.com/t2SVNMo.jpg',
   confetti: false,
   text: 'Venturing further down the left path, the corridor twists and turns before leading you to another unsettling junction. A second skeleton confronts you, its grim form again twisted in that haunting semblance of laughter. This one differs in that its head is thrown back, its left hand elegantly draped over its hollow eyes, while the jaw remains agape in a soundless, eternal laugh. It`s as if the skeleton is playing a morbid game of "see no evil". Amidst the eerie stillness, you face the same dilemma: which path will you dare to tread?',
   choices: ['Turn left', 'Turn Right', 'Turn back', null], 
@@ -273,7 +273,7 @@ const states = [
 },
 { state: 34, //correct path 2
   name: 'correct path 2',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375801884_10231505294754650_2120093377099358678_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=813123&_nc_ohc=2y9jVw3i8awAX_acM_E&_nc_ht=scontent-lga3-1.xx&oh=00_AfCr6DFJmbRq1oIyPbabQL6yzQsGRUNe84d-Vih3Uf6v4w&oe=64FD895C',
+  image: 'https://i.imgur.com/XQL8hMX.jpg',
   confetti: false,
   text: 'As you delve deeper into the winding tunnels, you`re met with another chilling junction. Before you stands another skeleton, its grim pose eerily familiar in its macabre mirth. Yet, this time, its arm is outstretched, a bony finger pointing directly at you in silent accusation or jest. Amidst the cold whispers of the mine`s depths, you`re faced once again with the pressing choice: which shadowed path will you bravely pursue?',
   choices: ['Turn left', 'Turn Right', 'Turn back', null], 
@@ -289,7 +289,7 @@ const states = [
 },
 { state: 36, //wrong path
   name: 'wrong path',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375317204_10231505323235362_7262325012835360713_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=h3l6gur4Hd0AX-Lhs2T&_nc_ht=scontent-lga3-1.xx&oh=00_AfBE7gIxlW3dMc2hx615eNPbe0pq-iKB0VORlwlH8KQO9w&oe=64FDE835',
+  image: 'https://i.imgur.com/CEJduy6.jpg',
   confetti: false,
   text: 'As you tread further along the relentless corridor, an unsettling sight greets you. Before you stands that same mocking skeleton, doubled over in macabre mirth, its left hand cradling its stomach, just as you remembered. A quick glance around confirms your sinking suspicion: the paths, eerily identical to those you`ve seen before. You`re ensnared in some wicked loop of unnatural magic. The pressing question echoes louder this time: Which path will you dare choose now?',
   choices: ['Turn left', 'Turn Right', 'Turn back', null], 
@@ -297,7 +297,7 @@ const states = [
 },
 { state: 37, //Right Tunnel
   name: 'Right Tunnel',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375298250_10231505839088258_5019533139538586267_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=813123&_nc_ohc=ONBRgowluKwAX9KU-bz&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVhKcdVHv64WaDj06d2kcb0IBlP0G7X4vnalPQDHTY5g&oe=64FE1CB9',
+  image: 'https://i.imgur.com/7NKURFL.jpg',
   confetti: false,
   text: 'Venturing into the right tunnel with your axe in hand, you proceed with caution. The faint mutterings grow louder as you near a bend, revealing at least three distinct voices. But what catches your attention most is a faint purring sound. It`s subtle but unmistakable: Méowyn is nearby. With your back against the wall, you take a moment to consider your next approach. How should you proceed?',
   choices: ['Charge foward yelling', 'Sneak forward cairfully', null, null], 
@@ -305,7 +305,7 @@ const states = [
 },
 { state: 38, //SURPRISE!!!!
   name: 'SURPRISE!!!!',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/376484823_10231507616292687_5995944437707494014_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=813123&_nc_ohc=66Tfe05J-dgAX8zpOiG&_nc_ht=scontent-lga3-1.xx&oh=00_AfAcaE4E9lhAAcWgcc2Y9plRDCR9nR8sf6y91ttz-uEXIg&oe=64FEE797',
+  image: 'https://i.imgur.com/9djjSv9.jpg',
   confetti: true,
   text: '"SURPRISE!" In an instant, orbs of light spring from a wizard`s hands, lighting up the cavern. An arrow strikes the ceiling, releasing papers that shimmer and twirl. Behind a rock, a figure in leathers rises, holding Méowyn. She leaps into your arms, climbing your beard to nuzzle your nose with her tiny one. Joy overwhelms you. Glancing around, familiar faces from your adventuring days greet you. Then, glowing words catch your eye: "HAPPY BIRTHDAY!" Suddenly, it all makes sense.',
   choices: ["Celebrate", null, null, null], 
@@ -313,7 +313,7 @@ const states = [
 },
 { state: 39, //Celebrate
   name: 'Celebrate',
-  image: 'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/375826803_10231507616412690_8933690162118074429_n.jpg?stp=cp6_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=813123&_nc_ohc=TV1rLEFvMCAAX-vWu8l&_nc_ht=scontent-lga3-2.xx&oh=00_AfDnUX24UtD_XSD0cLd8dp1SZJnGPETfxitYSLmQDAQRLA&oe=64FE6B57',
+  image: 'https://i.imgur.com/9djjSv9.jpg',
   confetti: true,
   text: 'The cavern fills with laughter and song. Old friends gather, sharing tales and raising their mugs. At the center is a grand cake adorned with symbols of past quests. You cut into it, Méowyn purring and sneaking a taste of frosting beside you. In this moment, surrounded by camaraderie and joy, your birthday feels truly special.',
   choices: ['The end', null, null, null], 
@@ -321,7 +321,7 @@ const states = [
 },
 { state: 40, //Dark woods
   name: 'Dark Woods', 
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'As you reach the treeline, the dark expanse of the forest ahead petrifies you to your core. Few return from these dark woods, and those who do tell tales of witches, ghouls, and worse. But you remind yourself of your quest, take a steadying breath, and push on.',
   choices: ['Push on', 'Turn back', null, null], 
@@ -329,7 +329,7 @@ const states = [
 },
 { state: 41, //Dark woods web 1
   name: 'Dark Woods webs 1', //Dark woods web 1
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'You make your way through the woods. It`s not in your dwarven nature to sneak, and your stocky figure is ill-suited to the practice, but you try your hardest not to attract the attention of those who lurk in the woods. It is your keen attention to your footsteps that allows you to notice the long strands that stretch across the path and cling to your legs... Webs!',
   choices: ['Walk cairfully', 'RUN!', null, null], 
@@ -337,7 +337,7 @@ const states = [
 },
 { state: 42, //dark wood web running
   name: 'dark wood web running',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'Panic overtakes you. Every shadow appears as a long, creeping leg. Each branch seems to snag at your legs. Flashes of your childhood haunt you: cave spiders the size of dinner plates, your birthday, your brother`s cruel jokes. You try to flee from this primal fear. But your fear betrays you. A root trips you up, sending you hurtling forward. You land hard, and to your horror, you feel the sticky embrace of webs enveloping you. What will you do now?',
   choices: ['Rip the webs away', 'Try to be still', null, null], 
@@ -345,7 +345,7 @@ const states = [
 },
 { state: 43, //dark wood web try to be still
   name: 'dark wood web try to be still',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpgA',
   confetti: false,
   text: 'Your body trembles uncontrollably, each heartbeat feeling like it might burst from your chest. Tears threaten, and you let them fall. On the web-laden forest floor, you give in to your emotions and weep. But then, a memory pierces through the despair: Méowyn. You have to save Méowyn. This thought resonates within you, becoming a soothing chant, grounding you. Gradually, the panic subsides. Drawing a deep breath, you steady yourself, considering your next course of action.',
   choices: ['Prepair for battle', 'Plot out an escape', null, null], 
@@ -353,7 +353,7 @@ const states = [
 },
 { state: 44, //Spider attack 
   name: 'Spider attack',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'It`s too late! They are upon you. The horrifying sound of their long, chitinous legs scraping against tree trunks fills the air as they swarm around you! Everywhere you turn, you`re met with their numerous glassy eyes and chelicerae dripping with venom. Fear engulfs you once more, but you cling to your resolve. You must survive for Méowyn. For Méowyn.',
   choices: ['Run', 'Fight', null, null], 
@@ -361,7 +361,7 @@ const states = [
 },
 { state: 45, //running from spiders
   name: 'running from spiders',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'A spider lunges at you, but adrenaline surges through your veins. You spot a gap in the swarm and sprint towards it, aiming for what you hope is the edge of this accursed wood. But the spiders are relentless. Their webs, incredibly strong, snag you, causing you to tumble to the ground yet again. Panic overtakes you. Frantically, you thrash and scream, only further entangling yourself in the webs. The spider swarm closes in, ready to consume you. As darkness descends, in your final terrifying moments, your thoughts drift to Méowyn.',
   choices: ['The end', null, null, null], 
@@ -369,7 +369,7 @@ const states = [
 },
 { state: 46, //bad end
   name: 'the end',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/375590642_10231498390222041_5220088064123046453_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=PX701S1uf40AX-9F0AD&_nc_ht=scontent-lga3-1.xx&oh=00_AfCHAPqK95OAs4fItppwxO6x03a6zyXAg3V8vOQiSRhLlg&oe=64FC0FCC',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'THE END',
   choices: ['Try again?', null, null, null], 
@@ -377,7 +377,7 @@ const states = [
 },
 { state: 47, //fighting the spiders
   name: 'fighting the spiders',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'You ready your axe, and as a spider lunges at you, it meets its demise, cleaved into two by your swift swing. You wield the hefty blade with the grace and precision of a master. As the bisected remnants of the first spider fall to the ground, a palpable apprehension ripples through the swarm. They skitter hesitantly before launching a second assault. Three more leap forward, but like the first, they too are swiftly dispatched, ending up in even more fragments on the ground. You`re finally in your element. Your axe arcs through the air, its movement evoking memories of your younger days. Thinking of Méowyn, you are filled with determination to succeed.',
   choices: ['Fight on', 'Make your escape', null, null], 
@@ -385,7 +385,7 @@ const states = [
 },
 { state: 48, //Fight on
   name: 'Fight on',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'The battle intensifies, spiders falling with each passing second. Despite your best efforts, a few breach your defenses. You feel their fangs pierce your flesh, injecting their venom. But surrender isn`t an option. With every determined swing, thoughts of Méowyn fuel your resolve. One by one, the spiders meet their end until none remain. You stand, drenched in detritus and spider remnants. The stench is overpowering, but the exhilarating rush of victory easily overshadows any discomfort. Now, which path will you choose next?',
   choices: ['Leave the woods', null, null, null], 
@@ -393,7 +393,7 @@ const states = [
 },
 { state: 49, //Make your escape
   name: 'Make your escape',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'Several more spiders try to overpower you, but they are easily felled by your expert axe skills. As you dispatch the horde, an opportunity presents itself: a path, free of webs and sparsely populated by spiders. With a final, decisive strike, you clear the way to your liberation and dash towards it. You sprint through the woods, but the ominous sound of pursuing spiders echoes close behind. Yet, you don`t let this deter you. Focusing solely on Méowyn, you press on, determined to escape.',
   choices: ['Leave the woods', null, null, null], 
@@ -401,7 +401,7 @@ const states = [
 },
 { state: 50, //Center tunnel
   name: 'Center tunnel',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'You walk past the gruesome streaks on and gouges along the floor and walls, trying not to ponder their origins too deeply. The farther you venture, the thinner the air becomes, intensifying the terror of every unfamiliar echo. The vastness of the gate and the depth of these gouges create an unnerving image in your mind of a potentially monstrous inhabitant. With each corner you turn, anticipation grows, yet so far, nothing confronts you.',
   choices: ['Delve deeper', 'Turn Back', null, null], 
@@ -409,7 +409,7 @@ const states = [
 },
 { state: 51, //Turn back
   name: 'Turn back',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'You decide to turn back, but that might have been a mistake. As you pivot, you find yourself face-to-face with a horror so nightmarish. The creature towers over you, its skin an iridescent purple, adorned with countless mismatched eyes. A disturbing blend of cephalopod and insect, it radiates a haunting hum, its maw a vertical slit filled with spiraling teeth. Reality seems to warp in its presence, hinting at an ancient, unfathomable power. Fear overtakes you, but as it pulls back to strike, you must choose what to do.',
   choices: ['Fight', 'Run', null, null], 
@@ -417,7 +417,7 @@ const states = [
 },
 { state: 52, //Delve deeper
   name: 'Delve deeper',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'As you continue deeper, the air grows colder, and an unsettling fog begins to fill the corridor. The haze distorts your vision, and every shadow becomes a potential threat. The chill isn`t just from the temperature – it`s as if the very atmosphere is filled with malice.',
   choices: ['Delve deeper', 'Turn back', null, null], 
@@ -425,7 +425,7 @@ const states = [
 },
 { state: 53, //Delve deeper 2
   name: 'Delve deeper 2',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'Your heart races with every step you take, the weight of the unknown pressing heavily upon your chest. The dim light that had been guiding your path seems to dim even further, casting eerie shadows that play tricks on your eyes. Each time you blink, you half expect some monstrous creature to come into focus.',
   choices: ['Delve deeper', 'Turn back', null, null], 
@@ -433,7 +433,7 @@ const states = [
 },
 { state: 54, //Delve deeper 3
   name: 'Delve deeper 3',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'The deafening silence is occasionally pierced by the distant dripping of water or some other unidentifiable sound. Your breathing becomes labored due to both the thinning air and the fear that grips you. You clench your weapon tightly, the only source of comfort in this desolate place.',
   choices: ['Delve deeper', 'Turn back', null, null], 
@@ -441,7 +441,7 @@ const states = [
 },
 { state: 55, //Attacked from behind
   name: 'Attacked from behind',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'Suddenly, an icy grip wraps around your ankle, pulling you off balance. Before you can react, you`re dragged backwards, the ground scraping against your back. The creature`s haunting hum grows deafening. As you twist to see your fate, you`re met with the terrifying sight of its gaping maw; spiraling teeth seem to beckon you closer. The world narrows as you`re drawn inexorably toward its abyssal throat, with cold darkness threatening to swallow you whole. As darkness descends in your final terrifying moments, your thoughts drift to Méowyn.',
   choices: ['The end', null, null, null], 
@@ -449,7 +449,7 @@ const states = [
 },
 { state: 56, //Attack the monster
   name: 'Attack the monster',
-  image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/370788599_10231485422777863_174509962738064701_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=813123&_nc_ohc=ihoekyCa3rUAX-fe_4S&_nc_ht=scontent-lga3-1.xx&oh=00_AfCVX87466dO6PebN_b0CA43kjen5xsTShKaJyhkg-Rahg&oe=64FF951A',
+  image: 'https://i.imgur.com/wxrJsqK.jpg',
   confetti: false,
   text: 'With adrenaline surging, you grip the hilt of your axe tightly. Mustering all your strength, you swing it at the creature. The blade strikes its iridescent hide, causing it to recoil with an unearthly screech. Seizing this momentary advantage, you sprint past the monster toward the entrance of the cave. The creature`s haunting hum grows distant as daylight begins to pierce the dark tunnel ahead, signaling your imminent escape from the nightmarish depths.',
   choices: ['Main cavern', null, null, null], 
